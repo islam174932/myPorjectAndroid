@@ -21,7 +21,7 @@ public class LoginTestCase extends BaseTest {
     @Test
     public void InValidUserName() throws InterruptedException, IOException, ParseException {
 
-            test = extent.createTest("InvalidsUserName", "Verify login with invalid username fails");
+            test = extent.createTest("InvalidUsername", "Verify login with invalid username fails");
 
             LoginPage loginPage = new LoginPage();
             sleep(); // Assuming this is a custom method to introduce a wait time, ensure it's correctly implemented
