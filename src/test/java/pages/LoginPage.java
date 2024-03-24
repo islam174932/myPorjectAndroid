@@ -8,7 +8,9 @@ import testing.BaseTest;
 
 public class LoginPage extends BaseTest {
 
+
     MobileElement loginButton = (MobileElement) driver.findElementByXPath("//android.widget.TextView[@text='LOGIN']");
+
     public void Login(String username, String password) throws InterruptedException {
 
         MobileElement usernameElement = (MobileElement) driver.findElementByXPath("//android.widget.EditText[@content-desc='test-Username']");
